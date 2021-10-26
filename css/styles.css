@@ -1,0 +1,161 @@
+body {
+	background-color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container {
+	/* auto takes as much room as it can on each side */
+	margin:0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+	color: rgb(66, 66, 66);
+}
+
+header{
+	display: flex;
+	margin-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+h1, h2, h3, h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+header div{
+	display: flex;
+	flex-wrap: wrap;
+}
+header div, header nav{
+	margin: auto;
+	align-items: center;
+}
+header > div > h1{
+	font-size: 20px;
+}
+header > div > h1 > a{
+	text-decoration: none;
+	color: black;
+}
+header img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+header > nav > ul > li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: black
+}
+header nav a:hover{
+	color: teal;
+	font-weight: bold;
+}
+
+.recipe-heading, .sub-recipe{
+	text-align: center;
+	margin-top: 10px;
+}
+.recipe-heading h2, .sub-recipe h2{
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.recipe-heading p{
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+.catalogue{
+	border: 1px solid black;
+}
+hr{
+	width: 800px;
+	border: none;
+	border-top: 3px dotted #8c8b8b;
+}
+.side-2-side{
+	display: flex;
+	height: 400px;
+}
+.food-img > img{
+	width: 478px;
+	height: 400px;
+}
+.menu{
+	text-align: center;
+}
+.menu h3{
+	padding: 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.menu p{
+	font-size: 14px;
+	padding: 0 5px 20px 5px;
+}
+.recipe{
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.recipe a{
+	font-size: 14px;
+	text-decoration: none;
+	color: brown;
+	padding: 5px;
+}
+.recipe a:hover{
+	color: teal;
+	font-weight: bold;
+}
+
+.information{
+	display: flex;
+	margin: 10px 0;
+}
+.information img{
+	width: 478px;
+	height: 478px;
+}
+.information h3, .c-info li, .facts h4, .ingredients h3, .ingredients li{
+	padding: 2px 20px;
+}
+.c-info h3, .facts h4{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.c-info{
+	border: 1px solid black;
+	height: 476px;
+}
+.c-info li, .facts p, .ingredients li{
+	font-size: 18px;
+}
+.facts{
+	padding-top: 40px;
+}
+.facts p{
+	padding-left: 20px;
+}
+.bottom-box{
+	border: 1px solid black;
+	margin: 20px 0;
+}
+.ingredients{
+	margin-bottom: 30px;
+}
+.ingredients h3{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.ingredients span{
+	font-size: 14px;
+	line-height: -1;
+}
+strong{
+	font-weight: bold;
+}
+
+footer p{
+	font-size: 10px;
+}
